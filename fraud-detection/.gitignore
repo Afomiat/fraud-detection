@@ -1,0 +1,26 @@
+# Data folders - ignore contents but keep folder structure
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (optional - remove if you want to track models)
+models/
+
+# OS
+.DS_Store
+Thumbs.db
